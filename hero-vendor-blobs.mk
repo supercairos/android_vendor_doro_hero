@@ -76,8 +76,53 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/doro/hero/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/doro/hero/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
-    vendor/doro/hero/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so
-    vendor/doro/hero/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
+    vendor/doro/hero/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    vendor/doro/hero/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/doro/hero/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/doro/hero/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/doro/hero/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/doro/hero/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/doro/hero/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/doro/hero/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/doro/hero/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/doro/hero/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/doro/hero/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/doro/hero/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/doro/hero/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/doro/hero/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/doro/hero/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/doro/hero/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/doro/hero/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/doro/hero/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/doro/hero/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/doro/hero/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/doro/hero/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/doro/hero/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/doro/hero/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/doro/hero/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/doro/hero/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/doro/hero/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/doro/hero/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/doro/hero/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
+    vendor/doro/hero/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/doro/hero/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/doro/hero/proprietary/bin/radish:system/bin/radish \
+    vendor/doro/hero/proprietary/bin/rfs_access:system/bin/rfs_access \
+    vendor/doro/hero/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/doro/hero/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/doro/hero/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/doro/hero/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    vendor/doro/hero/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/doro/hero/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/doro/hero/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/doro/hero/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/doro/hero/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/doro/hero/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/doro/hero/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/doro/hero/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/doro/hero/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so
+    vendor/doro/hero/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
 
 PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/bin/time_daemon:system/bin/time_daemon \

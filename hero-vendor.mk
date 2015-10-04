@@ -17,6 +17,18 @@
 # Pick up overlay for features that depend on non-open-source files
 
 PRODUCT_PACKAGES += \
+    qcrilmsgtunnel \
+    shutdownlistener \
+    TimeService
+
+PRODUCT_PACKAGES += \
+    qcnvitems \
+    qcrilhook
+
+PRODUCT_PACKAGES += \
+    libqct_resampler \
+
+PRODUCT_PACKAGES += \
     libtime_genoff
 
 $(call inherit-product, vendor/doro/hero/hero-vendor-blobs.mk)
