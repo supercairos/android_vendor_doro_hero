@@ -101,6 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/doro/hero/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/doro/hero/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/doro/hero/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/doro/hero/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/doro/hero/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/doro/hero/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
