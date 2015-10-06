@@ -29,6 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/doro/hero/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/doro/hero/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/doro/hero/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/doro/hero/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/doro/hero/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/doro/hero/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/doro/hero/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -130,8 +132,17 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/doro/hero/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/doro/hero/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-    vendor/doro/hero/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so
-    vendor/doro/hero/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg
+    vendor/doro/hero/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+    vendor/doro/hero/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
+    vendor/doro/hero/proprietary/bin/location-mq:system/bin/location-mq \
+    vendor/doro/hero/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/doro/hero/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/doro/hero/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/doro/hero/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/doro/hero/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/doro/hero/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/doro/hero/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so
+    vendor/doro/hero/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so
 
 PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/bin/time_daemon:system/bin/time_daemon \

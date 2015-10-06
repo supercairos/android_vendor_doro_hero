@@ -15,6 +15,8 @@ vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/libadreno_utils.so
+vendor/lib/librs_adreno.so
+vendor/lib/librs_adreno_sha1.so
 vendor/lib/libc2d30-a3xx.so
 vendor/lib/libc2d30-a4xx.so
 vendor/lib/libC2D2.so
@@ -141,3 +143,14 @@ vendor/lib/libsecureui.so
 vendor/lib/libSecureUILib.so
 vendor/lib/libsecureuisvc_jni.so
 vendor/etc/RIDL/qdss.cfg
+
+# GPS
+bin/location-mq
+bin/loc_launcher
+etc/permissions/com.qualcomm.location.xml
+vendor/lib/hw/flp.default.so
+vendor/lib/libgeofence.so
+vendor/lib/libizat_core.so
+vendor/lib/liblbs_core.so
+vendor/lib/liblocationservice.so
+vendor/lib/liblowi_client.so
