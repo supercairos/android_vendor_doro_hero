@@ -93,6 +93,9 @@ vendor/lib/libqmiservices.so
 vendor/lib/libqmi.so
 vendor/lib/libsmemlog.so
 
+# MSM8916
+vendor/etc/msm_irqbalance.conf
+
 # Thermal
 bin/thermal-engine
 vendor/lib/libthermalclient.so
@@ -100,7 +103,9 @@ vendor/lib/libthermalioctl.so
 
 # Sensors
 lib/hw/sensors.msm8916.so
-lib/libxml2.so
+vendor/etc/calmodule.cfg
+vendor/lib/libcalmodule_common.so
+vendor/lib/libcalmodule_gyroscope.so
 
 # ADSP
 bin/adsprpcd
@@ -131,3 +136,8 @@ vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libsystem_health_mon.so
 vendor/lib/libxml.so
+vendor/lib/libsecureui_svcsock.so
+vendor/lib/libsecureui.so
+vendor/lib/libSecureUILib.so
+vendor/lib/libsecureuisvc_jni.so
+vendor/etc/RIDL/qdss.cfg
