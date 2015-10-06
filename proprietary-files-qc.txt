@@ -147,6 +147,7 @@ vendor/etc/RIDL/qdss.cfg
 # GPS
 bin/location-mq
 bin/loc_launcher
+-priv-app/com.qualcomm.location/com.qualcomm.location.apk
 etc/permissions/com.qualcomm.location.xml
 vendor/lib/hw/flp.default.so
 vendor/lib/libgeofence.so
