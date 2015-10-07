@@ -175,5 +175,5 @@ vendor/lib/libxtwifi_ulp_adaptor.so
 vendor/lib/libxtwifi_zpp_adaptor.so
 vendor/lib/libquipc_os_api.so
 vendor/lib/libxtadapter.so
-lib/libloc_api_v02.so
-lib/libloc_ds_api.so
+-lib/libloc_api_v02.so
+-lib/libloc_ds_api.so
