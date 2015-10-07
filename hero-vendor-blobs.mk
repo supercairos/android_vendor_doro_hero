@@ -86,7 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/doro/hero/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/doro/hero/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/doro/hero/proprietary/bin/slim_ap_daemon:system/bin/slim_ap_daemon \
+    vendor/doro/hero/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/doro/hero/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/doro/hero/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/doro/hero/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -154,8 +154,12 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/doro/hero/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/doro/hero/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/doro/hero/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so
-    vendor/doro/hero/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so
+    vendor/doro/hero/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/doro/hero/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/doro/hero/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/doro/hero/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
+    vendor/doro/hero/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so
+    vendor/doro/hero/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so
 
 PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/bin/time_daemon:system/bin/time_daemon \

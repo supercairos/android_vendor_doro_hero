@@ -81,7 +81,7 @@ vendor/lib/libbtnv.so
 bin/xtwifi-client
 bin/xtwifi-inet-agent
 etc/xtwifi.conf
-bin/slim_ap_daemon
+vendor/bin/slim_ap_daemon
 
 # Qualcomm
 bin/irsc_util
@@ -174,3 +174,7 @@ vendor/lib/liblbs_core.so
 vendor/lib/liblocationservice.so
 vendor/lib/liblowi_client.so
 vendor/lib/libulp2.so
+vendor/lib/libxtwifi_ulp_adaptor.so
+vendor/lib/libxtwifi_zpp_adaptor.so
+vendor/lib/libquipc_os_api.so
+vendor/lib/libxtadapter.so
