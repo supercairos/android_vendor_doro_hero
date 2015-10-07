@@ -157,9 +157,6 @@ vendor/lib/libsecureui.so
 vendor/lib/libSecureUILib.so
 vendor/lib/libsecureuisvc_jni.so
 vendor/etc/RIDL/qdss.cfg
-etc/data/qmi_config.xml
-etc/data/netmgr_config.xml
-etc/data/dsi_config.xml
 
 # GPS
 bin/location-mq
