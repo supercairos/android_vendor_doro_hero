@@ -77,6 +77,12 @@ bin/btnvtool
 bin/hci_qcomm_init
 vendor/lib/libbtnv.so
 
+# Wifi
+bin/xtwifi-client
+bin/xtwifi-inet-agent
+etc/xtwifi.conf
+bin/slim_ap_daemon
+
 # Qualcomm
 bin/irsc_util
 vendor/lib/libdiag.so
@@ -108,6 +114,14 @@ lib/hw/sensors.msm8916.so
 vendor/etc/calmodule.cfg
 vendor/lib/libcalmodule_common.so
 vendor/lib/libcalmodule_gyroscope.so
+
+# Perf
+bin/perfd
+vendor/lib/libqti-perfd-client.so
+
+# Color
+vendor/lib/libI420colorconvert.so
+vendor/lib/libmm-color-convertor.so
 
 # ADSP
 bin/adsprpcd
@@ -143,10 +157,14 @@ vendor/lib/libsecureui.so
 vendor/lib/libSecureUILib.so
 vendor/lib/libsecureuisvc_jni.so
 vendor/etc/RIDL/qdss.cfg
+etc/data/qmi_config.xml
+etc/data/netmgr_config.xml
+etc/data/dsi_config.xml
 
 # GPS
 bin/location-mq
 bin/loc_launcher
+bin/lowi-server
 -priv-app/com.qualcomm.location/com.qualcomm.location.apk
 etc/permissions/com.qualcomm.location.xml
 vendor/lib/hw/flp.default.so
@@ -155,3 +173,4 @@ vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
 vendor/lib/liblocationservice.so
 vendor/lib/liblowi_client.so
+vendor/lib/libulp2.so

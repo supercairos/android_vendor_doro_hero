@@ -83,6 +83,10 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/doro/hero/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/doro/hero/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/doro/hero/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/doro/hero/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/doro/hero/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/doro/hero/proprietary/bin/slim_ap_daemon:system/bin/slim_ap_daemon \
     vendor/doro/hero/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/doro/hero/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/doro/hero/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -107,6 +111,10 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/doro/hero/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
     vendor/doro/hero/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
+    vendor/doro/hero/proprietary/bin/perfd:system/bin/perfd \
+    vendor/doro/hero/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/doro/hero/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/doro/hero/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/doro/hero/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/doro/hero/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -134,15 +142,20 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/doro/hero/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/doro/hero/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
+    vendor/doro/hero/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
+    vendor/doro/hero/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/doro/hero/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/doro/hero/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/doro/hero/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/doro/hero/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/doro/hero/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/doro/hero/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/doro/hero/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/doro/hero/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/doro/hero/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/doro/hero/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so
+    vendor/doro/hero/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/doro/hero/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so
+    vendor/doro/hero/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so
 
 PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/bin/time_daemon:system/bin/time_daemon \
