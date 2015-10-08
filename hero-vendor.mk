@@ -19,7 +19,8 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     libloc_api_v02 \
     libloc_ds_api \
-	libmdmdetect
+	libmdmdetect \
+	libperipheral_client
 
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
