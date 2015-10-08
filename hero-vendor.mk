@@ -18,7 +18,8 @@
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     libloc_api_v02 \
-    libloc_ds_api
+    libloc_ds_api \
+	libmdmdetect
 
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
