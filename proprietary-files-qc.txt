@@ -178,3 +178,15 @@ vendor/lib/libquipc_os_api.so
 vendor/lib/libxtadapter.so
 -lib/libloc_api_v02.so
 -lib/libloc_ds_api.so
+
+# Media
+lib/libOmxVdecHevc.so
+vendor/lib/libDivxDrm.so
+vendor/lib/libExtendedExtractor.so
+vendor/lib/libHevcSwDecoder.so
+vendor/lib/libmmosal.so
+vendor/lib/libmmparser.so
+vendor/lib/libOmxAacDec.so
+vendor/lib/libOmxEvrcDec.so
+vendor/lib/libOmxQcelp13Dec.so
+vendor/lib/libSHIMDivxDrm.so
