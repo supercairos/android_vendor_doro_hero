@@ -94,14 +94,11 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/doro/hero/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/doro/hero/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
-    vendor/doro/hero/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
-    vendor/doro/hero/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/doro/hero/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/doro/hero/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/doro/hero/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/doro/hero/proprietary/bin/thermal-engine:system/bin/thermal-engine \
