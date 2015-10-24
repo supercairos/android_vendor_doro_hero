@@ -30,7 +30,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     qcnvitems \
     qcrilhook \
-	libqcci_legacy
+	libqcci_legacy \
+	libqmi \
+	libqmiservices \
+	libqmi_client_qmux
 
 PRODUCT_PACKAGES += \
     libqct_resampler \
