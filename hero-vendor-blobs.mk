@@ -92,7 +92,6 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/doro/hero/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/doro/hero/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/doro/hero/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/doro/hero/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/doro/hero/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/doro/hero/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \

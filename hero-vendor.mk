@@ -29,10 +29,12 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+	libqcci_legacy
 
 PRODUCT_PACKAGES += \
     libqct_resampler \
+	libmm-abl
 
 PRODUCT_PACKAGES += \
     libtime_genoff
