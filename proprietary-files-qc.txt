@@ -114,6 +114,7 @@ vendor/lib/libthermalioctl.so
 
 # Sensors
 lib/hw/sensors.msm8916.so
+bin/psensorCal
 vendor/etc/calmodule.cfg
 vendor/lib/libcalmodule_common.so
 vendor/lib/libcalmodule_gyroscope.so
