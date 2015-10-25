@@ -103,6 +103,7 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libsmemlog.so
 -vendor/lib/libperipheral_client.so
 -vendor/lib/libmm-abl.so
+vendor/lib/libNimsWrap.so
 
 # MSM8916
 vendor/etc/msm_irqbalance.conf
