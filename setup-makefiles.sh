@@ -32,7 +32,7 @@ DISM=`egrep -c '(^#|^$)' proprietary-files-qc.txt`
 COUNT=`expr $COUNT - $DISM`
 for FILE in `egrep -v '(^#|^$)' proprietary-files-qc.txt`; do
   COUNT=`expr $COUNT - 1`
-  if [ $COUNT = "0" ]; then
+  if [ $COUNT = "-1" ]; then
     LINEEND=""
   fi
   # Split the file from the destination (format is "file[:destination]")
@@ -57,7 +57,7 @@ DISM=`egrep -c '(^#|^$)' proprietary-files.txt`
 COUNT=`expr $COUNT - $DISM`
 for FILE in `egrep -v '(^#|^$)' proprietary-files.txt`; do
   COUNT=`expr $COUNT - 1`
-  if [ $COUNT = "0" ]; then
+  if [ $COUNT = "-1" ]; then
     LINEEND=""
   fi
   # Split the file from the destination (format is "file[:destination]")

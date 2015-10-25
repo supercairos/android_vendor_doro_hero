@@ -160,7 +160,7 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/doro/hero/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/doro/hero/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/doro/hero/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so
+    vendor/doro/hero/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/doro/hero/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so
 
 PRODUCT_COPY_FILES += \
@@ -176,5 +176,5 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
     vendor/doro/hero/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
     vendor/doro/hero/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
-    vendor/doro/hero/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03
+    vendor/doro/hero/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
     vendor/doro/hero/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt
