@@ -162,6 +162,12 @@ vendor/lib/libSecureUILib.so
 vendor/lib/libsecureuisvc_jni.so
 vendor/etc/RIDL/qdss.cfg
 
+bin/ATFWD-daemon
+bin/cnss-deamon
+bin/imsqmidaemon
+bin/cnd
+bin/dpmd
+
 # GPS
 bin/location-mq
 bin/loc_launcher

@@ -139,6 +139,11 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
     vendor/doro/hero/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/doro/hero/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
+    vendor/doro/hero/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    vendor/doro/hero/proprietary/bin/cnss-deamon:system/bin/cnss-deamon \
+    vendor/doro/hero/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/doro/hero/proprietary/bin/cnd:system/bin/cnd \
+    vendor/doro/hero/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/doro/hero/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/doro/hero/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/doro/hero/proprietary/bin/lowi-server:system/bin/lowi-server \
