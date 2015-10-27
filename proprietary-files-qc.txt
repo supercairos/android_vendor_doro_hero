@@ -163,7 +163,7 @@ vendor/lib/libsecureuisvc_jni.so
 vendor/etc/RIDL/qdss.cfg
 
 bin/ATFWD-daemon
-bin/cnss-deamon
+bin/cnss-daemon
 bin/imsqmidaemon
 bin/cnd
 bin/dpmd
