@@ -142,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/doro/hero/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/doro/hero/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/doro/hero/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/doro/hero/proprietary/bin/cnd:system/bin/cnd \
     vendor/doro/hero/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/doro/hero/proprietary/bin/location-mq:system/bin/location-mq \
