@@ -156,10 +156,14 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/doro/hero/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/doro/hero/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/doro/hero/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    vendor/doro/hero/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/doro/hero/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/doro/hero/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/doro/hero/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/doro/hero/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
+    vendor/doro/hero/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/doro/hero/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/doro/hero/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/doro/hero/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/doro/hero/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/doro/hero/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/doro/hero/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \

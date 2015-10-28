@@ -17,8 +17,6 @@
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    libloc_api_v02 \
-    libloc_ds_api \
 	libmdmdetect \
 	libperipheral_client
 
