@@ -176,6 +176,9 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/doro/hero/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/doro/hero/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/doro/hero/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    vendor/doro/hero/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/doro/hero/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
     vendor/doro/hero/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/doro/hero/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/doro/hero/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \

@@ -207,8 +207,13 @@ vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libSHIMDivxDrm.so
 
+# FM
+bin/fm_qsoc_patches
+bin/fmconfig
+vendor/lib/mmi_fm.so
+
 # NFC
-vendor/firmware/libpn547_fw.so:vendor/firmware/libpn547_fw.so
+vendor/firmware/libpn547_fw.so
 
 # Time services
 -app/TimeService/TimeService.apk
