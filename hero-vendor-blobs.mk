@@ -176,9 +176,7 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/doro/hero/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/doro/hero/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/doro/hero/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so
-
-PRODUCT_COPY_FILES += \
+    vendor/doro/hero/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/doro/hero/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/doro/hero/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/doro/hero/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
@@ -193,3 +191,4 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
     vendor/doro/hero/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
     vendor/doro/hero/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt
+

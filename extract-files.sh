@@ -41,7 +41,6 @@ function extract() {
 BASE=proprietary
 rm -rf $BASE/*
 
-extract proprietary-files-qc.txt $BASE
 extract proprietary-files.txt $BASE
 
 ./setup-makefiles.sh
