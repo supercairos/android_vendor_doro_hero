@@ -87,6 +87,7 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/doro/hero/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/doro/hero/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
+    vendor/doro/hero/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/doro/hero/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/doro/hero/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/doro/hero/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -99,6 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/doro/hero/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/doro/hero/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/doro/hero/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/doro/hero/proprietary/bin/pm-service:system/bin/pm-service \
