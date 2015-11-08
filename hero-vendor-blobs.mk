@@ -100,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/doro/hero/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/doro/hero/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/doro/hero/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/doro/hero/proprietary/bin/pm-service:system/bin/pm-service \
@@ -147,6 +146,8 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/doro/hero/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/doro/hero/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/doro/hero/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/doro/hero/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/doro/hero/proprietary/bin/cnd:system/bin/cnd \
     vendor/doro/hero/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/doro/hero/proprietary/bin/location-mq:system/bin/location-mq \
