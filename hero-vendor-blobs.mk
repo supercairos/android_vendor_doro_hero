@@ -23,6 +23,84 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/doro/hero/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/doro/hero/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/doro/hero/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/doro/hero/proprietary/vendor/lib/libactuator_dw9718.so:system/vendor/lib/libactuator_dw9718.so \
+    vendor/doro/hero/proprietary/vendor/lib/libactuator_dw9718_camcorder.so:system/vendor/lib/libactuator_dw9718_camcorder.so \
+    vendor/doro/hero/proprietary/vendor/lib/libactuator_dw9718_camera.so:system/vendor/lib/libactuator_dw9718_camera.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_common.so:system/vendor/lib/libchromatix_ov2680_5987fhq_common.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so:system/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_preview.so:system/vendor/lib/libchromatix_ov2680_5987fhq_preview.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so:system/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_common.so:system/vendor/lib/libchromatix_ov2680_common.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_default_video.so:system/vendor/lib/libchromatix_ov2680_default_video.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_lightarray_common.so:system/vendor/lib/libchromatix_ov2680_lightarray_common.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_lightarray_default_video.so:system/vendor/lib/libchromatix_ov2680_lightarray_default_video.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_lightarray_preview.so:system/vendor/lib/libchromatix_ov2680_lightarray_preview.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_lightarray_snapshot.so:system/vendor/lib/libchromatix_ov2680_lightarray_snapshot.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_preview.so:system/vendor/lib/libchromatix_ov2680_preview.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_snapshot.so:system/vendor/lib/libchromatix_ov2680_snapshot.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_common.so:system/vendor/lib/libchromatix_ov8858_common.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_default_video.so:system/vendor/lib/libchromatix_ov8858_default_video.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib/libchromatix_ov8858_hfr_120fps.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_hfr_60fps.so:system/vendor/lib/libchromatix_ov8858_hfr_60fps.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_hfr_90fps.so:system/vendor/lib/libchromatix_ov8858_hfr_90fps.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_lightarray_common.so:system/vendor/lib/libchromatix_ov8858_lightarray_common.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_lightarray_default_video.so:system/vendor/lib/libchromatix_ov8858_lightarray_default_video.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_lightarray_hfr_120fps.so:system/vendor/lib/libchromatix_ov8858_lightarray_hfr_120fps.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_lightarray_hfr_60fps.so:system/vendor/lib/libchromatix_ov8858_lightarray_hfr_60fps.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_lightarray_hfr_90fps.so:system/vendor/lib/libchromatix_ov8858_lightarray_hfr_90fps.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_lightarray_liveshot.so:system/vendor/lib/libchromatix_ov8858_lightarray_liveshot.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_lightarray_preview.so:system/vendor/lib/libchromatix_ov8858_lightarray_preview.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_lightarray_snapshot.so:system/vendor/lib/libchromatix_ov8858_lightarray_snapshot.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_lightarray_zsl.so:system/vendor/lib/libchromatix_ov8858_lightarray_zsl.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_liveshot.so:system/vendor/lib/libchromatix_ov8858_liveshot.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_preview.so:system/vendor/lib/libchromatix_ov8858_preview.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_r2a_common.so:system/vendor/lib/libchromatix_ov8858_r2a_common.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_r2a_default_video.so:system/vendor/lib/libchromatix_ov8858_r2a_default_video.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_r2a_hfr_120fps.so:system/vendor/lib/libchromatix_ov8858_r2a_hfr_120fps.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_r2a_hfr_60fps.so:system/vendor/lib/libchromatix_ov8858_r2a_hfr_60fps.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_r2a_hfr_90fps.so:system/vendor/lib/libchromatix_ov8858_r2a_hfr_90fps.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_r2a_liveshot.so:system/vendor/lib/libchromatix_ov8858_r2a_liveshot.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_r2a_preview.so:system/vendor/lib/libchromatix_ov8858_r2a_preview.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_r2a_snapshot.so:system/vendor/lib/libchromatix_ov8858_r2a_snapshot.so \
+    vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:system/vendor/lib/libchromatix_ov8858_snapshot.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_ov8858_lightarray.so:system/vendor/lib/libmmcamera_ov8858_lightarray.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_ov8858_r2a.so:system/vendor/lib/libmmcamera_ov8858_r2a.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_ov2680.so:system/vendor/lib/libmmcamera_ov2680.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_ov2680_5987fhq.so:system/vendor/lib/libmmcamera_ov2680_5987fhq.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_ov2680_lightarray.so:system/vendor/lib/libmmcamera_ov2680_lightarray.so \
+    vendor/doro/hero/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/doro/hero/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    vendor/doro/hero/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/doro/hero/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/doro/hero/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/doro/hero/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/doro/hero/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/doro/hero/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/doro/hero/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/doro/hero/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -103,7 +181,6 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/doro/hero/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/doro/hero/proprietary/bin/pm-service:system/bin/pm-service \
-    vendor/doro/hero/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/doro/hero/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/doro/hero/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/doro/hero/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
@@ -144,10 +221,6 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
     vendor/doro/hero/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/doro/hero/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/doro/hero/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/doro/hero/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/doro/hero/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/doro/hero/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/doro/hero/proprietary/bin/cnd:system/bin/cnd \
     vendor/doro/hero/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/doro/hero/proprietary/bin/location-mq:system/bin/location-mq \
@@ -180,9 +253,6 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/doro/hero/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/doro/hero/proprietary/bin/vm_bms:system/bin/vm_bms \
-    vendor/doro/hero/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/doro/hero/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/doro/hero/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
     vendor/doro/hero/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     vendor/doro/hero/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/doro/hero/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
