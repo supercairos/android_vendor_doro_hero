@@ -189,11 +189,15 @@ vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 -vendor/lib/libqmiservices.so
 vendor/lib/libcneqmiutils.so
-
 vendor/lib/libsmemlog.so
 bin/pm-service
 -vendor/lib/libperipheral_client.so
+
+# Postprocessing
+bin/mm-pp-daemon
+vendor/lib/libdisp-aba.so
 -vendor/lib/libmm-abl.so
+vendor/lib/libmm-abl-oem.so
 
 # MSM8916
 vendor/etc/msm_irqbalance.conf
