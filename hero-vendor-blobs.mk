@@ -24,9 +24,9 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/doro/hero/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/doro/hero/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/doro/hero/proprietary/vendor/lib/libactuator_ov8825.so:system/vendor/lib/libactuator_ov8825.so \
-    vendor/doro/hero/proprietary/vendor/lib/libactuator_ov8825_camera.so:system/vendor/lib/libactuator_ov8825_camera.so \
-    vendor/doro/hero/proprietary/vendor/lib/libactuator_ov8825_camcorder.so:system/vendor/lib/libactuator_ov8825_camcorder.so \
+    vendor/doro/hero/proprietary/vendor/lib/libactuator_wv517.so:system/vendor/lib/libactuator_wv517.so \
+    vendor/doro/hero/proprietary/vendor/lib/libactuator_wv517_camera.so:system/vendor/lib/libactuator_wv517_camera.so \
+    vendor/doro/hero/proprietary/vendor/lib/libactuator_wv517_camcorder.so:system/vendor/lib/libactuator_wv517_camcorder.so \
     vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_common.so:system/vendor/lib/libchromatix_ov2680_5987fhq_common.so \
     vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so:system/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so \
     vendor/doro/hero/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_preview.so:system/vendor/lib/libchromatix_ov2680_5987fhq_preview.so \

@@ -10,9 +10,9 @@ etc/firmware/leia_pm4_470.fw
 
 # Camera
 bin/mm-qcamera-daemon
-vendor/lib/libactuator_ov8825.so
-vendor/lib/libactuator_ov8825_camera.so
-vendor/lib/libactuator_ov8825_camcorder.so
+vendor/lib/libactuator_wv517.so
+vendor/lib/libactuator_wv517_camera.so
+vendor/lib/libactuator_wv517_camcorder.so
 vendor/lib/libchromatix_ov2680_5987fhq_common.so
 vendor/lib/libchromatix_ov2680_5987fhq_default_video.so
 vendor/lib/libchromatix_ov2680_5987fhq_preview.so
