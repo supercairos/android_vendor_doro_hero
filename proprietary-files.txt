@@ -178,8 +178,6 @@ vendor/lib/libthermalclient.so
 vendor/lib/libthermalioctl.so
 
 # Sensors
-## THIS CAN PROBABLY BE COMPILED
-vendor/lib/libcalmodule_common.so
 vendor/lib/libcalmodule_gyroscope.so
 
 # Perf
@@ -232,12 +230,8 @@ vendor/lib/libquipc_os_api.so
 vendor/lib/libxtadapter.so
 vendor/lib/libxtwifi_ulp_adaptor.so
 vendor/lib/libxtwifi_zpp_adaptor.so
-lib/libloc_api_v02.so
-lib/libloc_ds_api.so
-
-## THIS CAN BE COMPILED !!
-lib/libloc_eng.so
-lib/libloc_core.so
+-lib/libloc_api_v02.so
+-lib/libloc_ds_api.so
 
 # Media
 lib/libOmxVdecHevc.so

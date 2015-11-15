@@ -167,7 +167,6 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/doro/hero/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/doro/hero/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    vendor/doro/hero/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
     vendor/doro/hero/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/doro/hero/proprietary/bin/perfd:system/bin/perfd \
     vendor/doro/hero/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
@@ -204,10 +203,6 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/doro/hero/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/doro/hero/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    vendor/doro/hero/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/doro/hero/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/doro/hero/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/doro/hero/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/doro/hero/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/doro/hero/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/doro/hero/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
