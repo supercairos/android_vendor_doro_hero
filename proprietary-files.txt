@@ -162,19 +162,9 @@ bin/btnvtool
 bin/hci_qcomm_init
 vendor/lib/libbtnv.so
 
-# Wifi + GPS (Location through WiFi)
-bin/xtwifi-client
-bin/xtwifi-inet-agent
-etc/xtwifi.conf
-vendor/bin/slim_ap_daemon
-
-# Wifi
-bin/ptt_socket_app
-
 # Qualcomm
 bin/irsc_util
 vendor/lib/libdiag.so
-vendor/lib/libdsi_netctrl.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
 -vendor/lib/libqcci_legacy.so
@@ -188,16 +178,16 @@ vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 -vendor/lib/libqmiservices.so
-vendor/lib/libcneqmiutils.so
 vendor/lib/libsmemlog.so
-bin/pm-service
--vendor/lib/libperipheral_client.so
+vendor/lib/libdsi_netctrl.so
 
 # Postprocessing
 bin/mm-pp-daemon
 vendor/lib/libdisp-aba.so
 -vendor/lib/libmm-abl.so
 vendor/lib/libmm-abl-oem.so
+vendor/lib/libmm-disp-apis.so
+vendor/lib/libmm-qdcm.so
 
 # MSM8916
 vendor/etc/msm_irqbalance.conf
@@ -209,8 +199,6 @@ vendor/lib/libthermalioctl.so
 
 # Sensors
 lib/hw/sensors.msm8916.so
-bin/psensorCal
-vendor/etc/calmodule.cfg
 vendor/lib/libcalmodule_common.so
 vendor/lib/libcalmodule_gyroscope.so
 
@@ -240,8 +228,6 @@ etc/permissions/qcrilhook.xml
 -framework/qcnvitems.jar
 -framework/qcrilhook.jar
 lib/librmnetctl.so
-lib/libril.so
-vendor/lib/libdsi_netctrl.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libconfigdb.so
 -vendor/lib/libmdmdetect.so
@@ -250,21 +236,14 @@ vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libsystem_health_mon.so
 vendor/lib/libxml.so
-vendor/lib/libsecureui_svcsock.so
-vendor/lib/libsecureui.so
-vendor/lib/libSecureUILib.so
-vendor/lib/libsecureuisvc_jni.so
-vendor/etc/RIDL/qdss.cfg
-
-bin/ATFWD-daemon
-bin/cnss-daemon
-bin/cnd
-bin/dpmd
+-vendor/lib/libperipheral_client.so
+# bin/ATFWD-daemon
+# bin/cnss-daemon
+# bin/cnd
+# bin/dpmd
 
 # GPS
 bin/location-mq
-bin/loc_launcher
-bin/lowi-server
 -priv-app/com.qualcomm.location/com.qualcomm.location.apk
 etc/permissions/com.qualcomm.location.xml
 vendor/lib/hw/flp.default.so
@@ -278,10 +257,11 @@ vendor/lib/libquipc_os_api.so
 vendor/lib/libxtadapter.so
 vendor/lib/libxtwifi_ulp_adaptor.so
 vendor/lib/libxtwifi_zpp_adaptor.so
-lib/libloc_core.so
 lib/libloc_api_v02.so
 lib/libloc_ds_api.so
+## THIS CAN BE COMPILED !!
 lib/libloc_eng.so
+lib/libloc_core.so
 
 # Media
 lib/libOmxVdecHevc.so

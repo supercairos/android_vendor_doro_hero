@@ -164,14 +164,8 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/doro/hero/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/doro/hero/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/doro/hero/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/doro/hero/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/doro/hero/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/doro/hero/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
-    vendor/doro/hero/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/doro/hero/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/doro/hero/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/doro/hero/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/doro/hero/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/doro/hero/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/doro/hero/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
@@ -181,19 +175,18 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/doro/hero/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/doro/hero/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/doro/hero/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/doro/hero/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/doro/hero/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/doro/hero/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/doro/hero/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/doro/hero/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
+    vendor/doro/hero/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/doro/hero/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/doro/hero/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/doro/hero/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/doro/hero/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/doro/hero/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
-    vendor/doro/hero/proprietary/bin/psensorCal:system/bin/psensorCal \
-    vendor/doro/hero/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg \
     vendor/doro/hero/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
     vendor/doro/hero/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
     vendor/doro/hero/proprietary/bin/perfd:system/bin/perfd \
@@ -211,8 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/doro/hero/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/doro/hero/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/doro/hero/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/doro/hero/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/doro/hero/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/doro/hero/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/doro/hero/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
@@ -220,18 +211,7 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/doro/hero/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/doro/hero/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/doro/hero/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-    vendor/doro/hero/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-    vendor/doro/hero/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-    vendor/doro/hero/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
-    vendor/doro/hero/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
-    vendor/doro/hero/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
-    vendor/doro/hero/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/doro/hero/proprietary/bin/cnd:system/bin/cnd \
-    vendor/doro/hero/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/doro/hero/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/doro/hero/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/doro/hero/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/doro/hero/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/doro/hero/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/doro/hero/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
@@ -244,10 +224,10 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/doro/hero/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/doro/hero/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    vendor/doro/hero/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/doro/hero/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/doro/hero/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/doro/hero/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/doro/hero/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/doro/hero/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/doro/hero/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/doro/hero/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
