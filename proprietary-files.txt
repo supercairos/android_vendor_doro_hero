@@ -194,7 +194,7 @@ vendor/lib/libadsprpc.so
 vendor/lib/libfastcvopt.so
 
 # Radio
--app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -app/shutdownlistener/shutdownlistener.apk
 bin/netmgrd
 bin/qmuxd
