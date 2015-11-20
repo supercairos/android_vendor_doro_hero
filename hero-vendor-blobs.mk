@@ -164,11 +164,11 @@ PRODUCT_COPY_FILES += \
     vendor/doro/hero/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/doro/hero/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/doro/hero/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
-    vendor/doro/hero/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/doro/hero/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/doro/hero/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/doro/hero/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/doro/hero/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
-    vendor/doro/hero/proprietary/bin/perfd:system/bin/perfd \
+    vendor/doro/hero/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/doro/hero/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/doro/hero/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/doro/hero/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
