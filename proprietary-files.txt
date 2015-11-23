@@ -116,16 +116,17 @@ vendor/lib/libscale.so
 
 # DRM
 bin/qseecomd
-vendor/lib/drm/libdrmwvmplugin.so
 vendor/lib/libdrmfs.so
 vendor/lib/libdrmtime.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib/librpmb.so
 vendor/lib/libssd.so
-vendor/lib/libwvdrm_L1.so
-vendor/lib/libwvm.so
-vendor/lib/libWVStreamControlAPI_L1.so
-vendor/lib/mediadrm/libwvdrmengine.so
+
+# vendor/lib/libwvdrm_L1.so
+# vendor/lib/libwvm.so
+# vendor/lib/libWVStreamControlAPI_L1.so
+# vendor/lib/drm/libdrmwvmplugin.so
+# vendor/lib/mediadrm/libwvdrmengine.so
 
 # Audio
 -vendor/lib/libqct_resampler.so
@@ -236,14 +237,15 @@ vendor/lib/libxtwifi_zpp_adaptor.so
 # Media
 lib/libOmxVdecHevc.so
 vendor/lib/libDivxDrm.so
-vendor/lib/libExtendedExtractor.so
 vendor/lib/libHevcSwDecoder.so
-vendor/lib/libmmosal.so
-vendor/lib/libmmparser.so
 vendor/lib/libOmxAacDec.so
 vendor/lib/libOmxEvrcDec.so
 vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libSHIMDivxDrm.so
+
+# vendor/lib/libExtendedExtractor.so
+# vendor/lib/libmmosal.so
+# vendor/lib/libmmparser.so
 
 # Power
 bin/vm_bms
