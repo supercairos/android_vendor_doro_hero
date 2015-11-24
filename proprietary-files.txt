@@ -166,7 +166,7 @@ vendor/lib/libdsi_netctrl.so
 -vendor/lib/libperipheral_client.so
 
 # Postprocessing
-bin/mm-pp-daemon
+bin/mm-pp-daemon:vendor/bin/mm-pp-daemon
 vendor/lib/libdisp-aba.so
 -vendor/lib/libmm-abl.so
 vendor/lib/libmm-abl-oem.so
