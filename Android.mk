@@ -16,16 +16,16 @@
 
 LOCAL_PATH := $(call my-dir)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.qualcomm.location
-LOCAL_MODULE_OWNER := doro
-LOCAL_SRC_FILES := proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
+# include $(CLEAR_VARS)
+# LOCAL_MODULE := com.qualcomm.location
+# LOCAL_MODULE_OWNER := doro
+# LOCAL_SRC_FILES := proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk
+# LOCAL_MODULE_TAGS := optional
+# LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+# LOCAL_MODULE_CLASS := APPS
+# LOCAL_PRIVILEGED_MODULE := true
+# LOCAL_CERTIFICATE := platform
+# include $(BUILD_PREBUILT)
 
 
 include $(CLEAR_VARS)
@@ -169,25 +169,25 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libloc_api_v02
-LOCAL_MODULE_OWNER := doro
-LOCAL_SRC_FILES := proprietary/lib/libloc_api_v02.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
-include $(BUILD_PREBUILT)
+# include $(CLEAR_VARS)
+# LOCAL_MODULE := libloc_api_v02
+# LOCAL_MODULE_OWNER := doro
+# LOCAL_SRC_FILES := proprietary/lib/libloc_api_v02.so
+# LOCAL_MODULE_TAGS := optional
+# LOCAL_MODULE_SUFFIX := .so
+# LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+# LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
+# include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libloc_ds_api
-LOCAL_MODULE_OWNER := doro
-LOCAL_SRC_FILES := proprietary/lib/libloc_ds_api.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
-include $(BUILD_PREBUILT)
+# include $(CLEAR_VARS)
+# LOCAL_MODULE := libloc_ds_api
+# LOCAL_MODULE_OWNER := doro
+# LOCAL_SRC_FILES := proprietary/lib/libloc_ds_api.so
+# LOCAL_MODULE_TAGS := optional
+# LOCAL_MODULE_SUFFIX := .so
+# LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+# LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
+# include $(BUILD_PREBUILT)
 
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
 

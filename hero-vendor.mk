@@ -16,18 +16,18 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    com.qualcomm.location \
 	libmdmdetect \
 	libperipheral_client
+#	com.qualcomm.location 
 
 PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
     TimeService
 	
-PRODUCT_PACKAGES += \
-    libloc_api_v02 \
-    libloc_ds_api
+# PRODUCT_PACKAGES += \
+#    libloc_api_v02 \
+#    libloc_ds_api
 	
 PRODUCT_PACKAGES += \
     qcnvitems \
